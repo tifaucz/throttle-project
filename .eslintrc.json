@@ -1,0 +1,12 @@
+{
+    "extends": [
+        "airbnb-base",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["@typescript-eslint"],
+    "rules":{
+        "indent": ["error", 4],
+        "no-await-in-loop": "off"
+    }
+}
